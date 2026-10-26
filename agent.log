@@ -1,0 +1,746 @@
+2026-06-25 14:39:00 | INFO     | ======================================================================
+2026-06-25 14:39:00 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-06-25 14:39:00 | INFO     | ======================================================================
+2026-06-25 14:39:00 | INFO     | Patient ID: PAT_050
+2026-06-25 14:39:00 | INFO     | LLM: ollama/llama3.2 (timeout: 120s)
+2026-06-25 14:39:00 | INFO     | Max tokens: 800 | Prompt tokens: 600
+2026-06-25 14:39:00 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:39:00 | INFO     | [1/6] Initializing patient loader...
+2026-06-25 14:39:00 | INFO     | [2/6] Initializing RAG engine...
+2026-06-25 14:39:00 | INFO     | [3/6] Initializing safety guardrails...
+2026-06-25 14:39:00 | INFO     | [4/6] Initializing LLM client...
+2026-06-25 14:39:00 | INFO     | [5/6] Initializing clinical decision agent...
+2026-06-25 14:39:00 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:39:00 | INFO     | [6/6] Loading patient data and running analysis...
+2026-06-25 14:39:00 | INFO     | ✓ Patient: 58yo O, Chief complaint: Persistent cough and fatigue
+2026-06-25 14:39:00 | INFO     | Running clinical decision agent (this may take 30-120 seconds)...
+2026-06-25 14:40:49 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:40:49 | INFO     | Generating reports...
+2026-06-25 14:40:49 | INFO     | ======================================================================
+2026-06-25 14:40:49 | INFO     | ✓ ANALYSIS COMPLETE
+2026-06-25 14:40:49 | INFO     | Confidence Score: 0.80
+2026-06-25 14:40:49 | INFO     | Safety Alerts: 2
+2026-06-25 14:40:49 | INFO     | Processing Time: 109.06s
+2026-06-25 14:40:49 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:40:49 | INFO     | Generated Report Files:
+2026-06-25 14:40:49 | INFO     |   📄 reports\sapk_PAT_050_20260625_143900.json
+2026-06-25 14:40:49 | INFO     |   📄 reports\sapk_PAT_050_20260625_143900.md
+2026-06-25 14:40:49 | INFO     |   📄 reports\sapk_PAT_050_20260625_143900_citations.json
+2026-06-25 14:40:49 | INFO     |   📄 ./agent.log
+2026-06-25 14:40:49 | INFO     | ======================================================================
+2026-06-25 14:41:57 | INFO     | ======================================================================
+2026-06-25 14:41:57 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-06-25 14:41:57 | INFO     | ======================================================================
+2026-06-25 14:41:57 | INFO     | Patient ID: PAT_035
+2026-06-25 14:41:57 | INFO     | LLM: ollama/llama3.2 (timeout: 120s)
+2026-06-25 14:41:57 | INFO     | Max tokens: 800 | Prompt tokens: 600
+2026-06-25 14:41:57 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:41:57 | INFO     | [1/6] Initializing patient loader...
+2026-06-25 14:41:57 | INFO     | [2/6] Initializing RAG engine...
+2026-06-25 14:41:57 | INFO     | [3/6] Initializing safety guardrails...
+2026-06-25 14:41:57 | INFO     | [4/6] Initializing LLM client...
+2026-06-25 14:41:57 | INFO     | [5/6] Initializing clinical decision agent...
+2026-06-25 14:41:57 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:41:57 | INFO     | [6/6] Loading patient data and running analysis...
+2026-06-25 14:41:57 | INFO     | ✓ Patient: 43yo O, Chief complaint: Chest discomfort and dizziness
+2026-06-25 14:41:57 | INFO     | Running clinical decision agent (this may take 30-120 seconds)...
+2026-06-25 14:44:20 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:44:20 | INFO     | Generating reports...
+2026-06-25 14:44:20 | INFO     | ======================================================================
+2026-06-25 14:44:20 | INFO     | ✓ ANALYSIS COMPLETE
+2026-06-25 14:44:20 | INFO     | Confidence Score: 0.80
+2026-06-25 14:44:20 | INFO     | Safety Alerts: 4
+2026-06-25 14:44:20 | INFO     | Processing Time: 142.38s
+2026-06-25 14:44:20 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:44:20 | INFO     | Generated Report Files:
+2026-06-25 14:44:20 | INFO     |   📄 reports\sapk_PAT_035_20260625_144157.json
+2026-06-25 14:44:20 | INFO     |   📄 reports\sapk_PAT_035_20260625_144157.md
+2026-06-25 14:44:20 | INFO     |   📄 reports\sapk_PAT_035_20260625_144157_citations.json
+2026-06-25 14:44:20 | INFO     |   📄 ./agent.log
+2026-06-25 14:44:20 | INFO     | ======================================================================
+2026-06-25 14:49:56 | INFO     | ======================================================================
+2026-06-25 14:49:56 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-06-25 14:49:56 | INFO     | ======================================================================
+2026-06-25 14:49:56 | INFO     | Patient ID: PAT_050
+2026-06-25 14:49:56 | INFO     | LLM: ollama/llama3.2 (timeout: 300s)
+2026-06-25 14:49:56 | INFO     | Max tokens: 800 | Prompt tokens: 600
+2026-06-25 14:49:56 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:49:56 | INFO     | [1/6] Initializing patient loader...
+2026-06-25 14:49:56 | INFO     | [2/6] Initializing RAG engine...
+2026-06-25 14:49:56 | INFO     | [3/6] Initializing safety guardrails...
+2026-06-25 14:49:56 | INFO     | [4/6] Initializing LLM client...
+2026-06-25 14:49:56 | INFO     | [5/6] Initializing clinical decision agent...
+2026-06-25 14:49:56 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:49:56 | INFO     | [6/6] Loading patient data and running analysis...
+2026-06-25 14:49:56 | INFO     | ✓ Patient: 58yo O, Chief complaint: Persistent cough and fatigue
+2026-06-25 14:49:56 | INFO     | Calling LLM (attempt 1/3, timeout: 300s)...
+2026-06-25 14:53:47 | INFO     | ✓ LLM response received (231344ms)
+2026-06-25 14:53:47 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:53:47 | INFO     | Generating reports...
+2026-06-25 14:53:47 | INFO     | ======================================================================
+2026-06-25 14:53:47 | INFO     | ✓ ANALYSIS COMPLETE
+2026-06-25 14:53:47 | INFO     | Confidence Score: 0.80
+2026-06-25 14:53:47 | INFO     | Safety Alerts: 2
+2026-06-25 14:53:47 | INFO     | Processing Time: 231.39s
+2026-06-25 14:53:47 | INFO     | ----------------------------------------------------------------------
+2026-06-25 14:53:47 | INFO     | Generated Report Files:
+2026-06-25 14:53:47 | INFO     |   📄 reports\sapk_PAT_050_20260625_144956.json
+2026-06-25 14:53:47 | INFO     |   📄 reports\sapk_PAT_050_20260625_144956.md
+2026-06-25 14:53:47 | INFO     |   📄 reports\sapk_PAT_050_20260625_144956_citations.json
+2026-06-25 14:53:47 | INFO     |   📄 ./agent.log
+2026-06-25 14:53:47 | INFO     | ======================================================================
+2026-06-29 12:15:15 | INFO     | ======================================================================
+2026-06-29 12:15:15 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-06-29 12:15:15 | INFO     | ======================================================================
+2026-06-29 12:15:15 | INFO     | Patient ID: PAT_015
+2026-06-29 12:15:15 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-06-29 12:15:15 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-06-29 12:15:15 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:15:15 | INFO     | [1/6] Initializing patient loader...
+2026-06-29 12:15:15 | INFO     | [2/6] Initializing RAG engine...
+2026-06-29 12:15:15 | INFO     | [3/6] Initializing safety guardrails...
+2026-06-29 12:15:15 | INFO     | [4/6] Initializing LLM client...
+2026-06-29 12:15:15 | INFO     | [5/6] Initializing clinical decision agent...
+2026-06-29 12:15:15 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:15:15 | INFO     | [6/6] Loading patient data and running analysis...
+2026-06-29 12:15:15 | INFO     | ✓ Patient: 23yo M, Chief complaint: Chest discomfort and dizziness
+2026-06-29 12:15:15 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-06-29 12:18:14 | ERROR    | Ollama request timeout after 180s
+2026-06-29 12:18:14 | ERROR    | ✗ LLM request timeout after 180s (attempt 1/3)
+2026-06-29 12:18:14 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-06-29 12:18:15 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-06-29 12:21:14 | ERROR    | Ollama request timeout after 180s
+2026-06-29 12:21:14 | ERROR    | ✗ LLM request timeout after 180s (attempt 2/3)
+2026-06-29 12:21:14 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-06-29 12:21:16 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-06-29 12:24:16 | ERROR    | Ollama request timeout after 180s
+2026-06-29 12:24:16 | ERROR    | ✗ LLM request timeout after 180s (attempt 3/3)
+2026-06-29 12:24:16 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-06-29 12:24:16 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:24:16 | INFO     | Generating reports...
+2026-06-29 12:24:16 | INFO     | ======================================================================
+2026-06-29 12:24:16 | INFO     | ✓ ANALYSIS COMPLETE
+2026-06-29 12:24:16 | INFO     | Confidence Score: 0.00
+2026-06-29 12:24:16 | INFO     | Safety Alerts: 1
+2026-06-29 12:24:16 | INFO     | Processing Time: 540.81s
+2026-06-29 12:24:16 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:24:16 | INFO     | Generated Report Files:
+2026-06-29 12:24:16 | INFO     |   📄 reports\sapk_PAT_015_20260629_121515.json
+2026-06-29 12:24:16 | INFO     |   📄 reports\sapk_PAT_015_20260629_121515.md
+2026-06-29 12:24:16 | INFO     |   📄 reports\sapk_PAT_015_20260629_121515_citations.json
+2026-06-29 12:24:16 | INFO     |   📄 ./agent.log
+2026-06-29 12:24:16 | INFO     | ======================================================================
+2026-06-29 12:33:14 | INFO     | ======================================================================
+2026-06-29 12:33:14 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-06-29 12:33:14 | INFO     | ======================================================================
+2026-06-29 12:33:14 | INFO     | Patient ID: PAT_015
+2026-06-29 12:33:14 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-06-29 12:33:14 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-06-29 12:33:14 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:33:14 | INFO     | [1/6] Initializing patient loader...
+2026-06-29 12:33:14 | INFO     | [2/6] Initializing RAG engine...
+2026-06-29 12:33:14 | INFO     | [3/6] Initializing safety guardrails...
+2026-06-29 12:33:14 | INFO     | [4/6] Initializing LLM client...
+2026-06-29 12:33:14 | INFO     | [5/6] Initializing clinical decision agent...
+2026-06-29 12:33:14 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:33:14 | INFO     | [6/6] Loading patient data and running analysis...
+2026-06-29 12:33:14 | INFO     | ✓ Patient: 23yo M, Chief complaint: Chest discomfort and dizziness
+2026-06-29 12:33:14 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-06-29 12:33:57 | INFO     | ✓ LLM response received (43441ms)
+2026-06-29 12:33:57 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:33:57 | INFO     | Generating reports...
+2026-06-29 12:33:57 | INFO     | ======================================================================
+2026-06-29 12:33:57 | INFO     | ✓ ANALYSIS COMPLETE
+2026-06-29 12:33:57 | INFO     | Confidence Score: 0.80
+2026-06-29 12:33:57 | INFO     | Safety Alerts: 4
+2026-06-29 12:33:57 | INFO     | Processing Time: 43.47s
+2026-06-29 12:33:57 | INFO     | ----------------------------------------------------------------------
+2026-06-29 12:33:57 | INFO     | Generated Report Files:
+2026-06-29 12:33:57 | INFO     |   📄 reports\sapk_PAT_015_20260629_123314.json
+2026-06-29 12:33:57 | INFO     |   📄 reports\sapk_PAT_015_20260629_123314.md
+2026-06-29 12:33:57 | INFO     |   📄 reports\sapk_PAT_015_20260629_123314_citations.json
+2026-06-29 12:33:57 | INFO     |   📄 ./agent.log
+2026-06-29 12:33:57 | INFO     | ======================================================================
+2026-06-30 15:59:25 | INFO     | ======================================================================
+2026-06-30 15:59:25 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-06-30 15:59:25 | INFO     | ======================================================================
+2026-06-30 15:59:25 | INFO     | Patient ID: PAT_041
+2026-06-30 15:59:25 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-06-30 15:59:25 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-06-30 15:59:25 | INFO     | ----------------------------------------------------------------------
+2026-06-30 15:59:25 | INFO     | [1/6] Initializing patient loader...
+2026-06-30 15:59:25 | INFO     | [2/6] Initializing RAG engine...
+2026-06-30 15:59:25 | INFO     | [3/6] Initializing safety guardrails...
+2026-06-30 15:59:25 | INFO     | [4/6] Initializing LLM client...
+2026-06-30 15:59:25 | INFO     | [5/6] Initializing clinical decision agent...
+2026-06-30 15:59:25 | INFO     | ----------------------------------------------------------------------
+2026-06-30 15:59:25 | INFO     | [6/6] Loading patient data and running analysis...
+2026-06-30 15:59:25 | INFO     | ✓ Patient: 49yo O, Chief complaint: Chest discomfort and dizziness
+2026-06-30 15:59:25 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-06-30 16:00:49 | INFO     | ✓ LLM response received (84289ms)
+2026-06-30 16:00:49 | INFO     | ----------------------------------------------------------------------
+2026-06-30 16:00:49 | INFO     | Generating reports...
+2026-06-30 16:00:49 | INFO     | ======================================================================
+2026-06-30 16:00:49 | INFO     | ✓ ANALYSIS COMPLETE
+2026-06-30 16:00:49 | INFO     | Confidence Score: 0.80
+2026-06-30 16:00:49 | INFO     | Safety Alerts: 6
+2026-06-30 16:00:49 | INFO     | Processing Time: 84.33s
+2026-06-30 16:00:49 | INFO     | ----------------------------------------------------------------------
+2026-06-30 16:00:49 | INFO     | Generated Report Files:
+2026-06-30 16:00:49 | INFO     |   📄 reports\sapk_PAT_041_20260630_155925.json
+2026-06-30 16:00:49 | INFO     |   📄 reports\sapk_PAT_041_20260630_155925.md
+2026-06-30 16:00:49 | INFO     |   📄 reports\sapk_PAT_041_20260630_155925_citations.json
+2026-06-30 16:00:49 | INFO     |   📄 ./agent.log
+2026-06-30 16:00:49 | INFO     | ======================================================================
+2026-06-30 16:49:51 | INFO     | ======================================================================
+2026-06-30 16:49:51 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-06-30 16:49:51 | INFO     | ======================================================================
+2026-06-30 16:49:51 | INFO     | Patient ID: PAT_045
+2026-06-30 16:49:51 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-06-30 16:49:51 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-06-30 16:49:51 | INFO     | ----------------------------------------------------------------------
+2026-06-30 16:49:51 | INFO     | [1/6] Initializing patient loader...
+2026-06-30 16:49:51 | INFO     | [2/6] Initializing RAG engine...
+2026-06-30 16:49:51 | INFO     | [3/6] Initializing safety guardrails...
+2026-06-30 16:49:51 | INFO     | [4/6] Initializing LLM client...
+2026-06-30 16:49:51 | INFO     | [5/6] Initializing clinical decision agent...
+2026-06-30 16:49:51 | INFO     | ----------------------------------------------------------------------
+2026-06-30 16:49:51 | INFO     | [6/6] Loading patient data and running analysis...
+2026-06-30 16:49:51 | INFO     | ✓ Patient: 53yo M, Chief complaint: Chest discomfort and dizziness
+2026-06-30 16:49:51 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-06-30 16:50:37 | INFO     | ✓ LLM response received (46026ms)
+2026-06-30 16:50:37 | INFO     | ----------------------------------------------------------------------
+2026-06-30 16:50:37 | INFO     | Generating reports...
+2026-06-30 16:50:37 | INFO     | Cleaning up old reports, keeping last 7...
+2026-06-30 16:50:37 | INFO     | Deleted 1 old report sets
+2026-06-30 16:50:37 | INFO     | ======================================================================
+2026-06-30 16:50:37 | INFO     | ✓ ANALYSIS COMPLETE
+2026-06-30 16:50:37 | INFO     | Confidence Score: 0.80
+2026-06-30 16:50:37 | INFO     | Safety Alerts: 4
+2026-06-30 16:50:37 | INFO     | Processing Time: 46.06s
+2026-06-30 16:50:37 | INFO     | ----------------------------------------------------------------------
+2026-06-30 16:50:37 | INFO     | Generated Report Files:
+2026-06-30 16:50:37 | INFO     |   📄 reports\sapk_PAT_045_20260630_164951.json
+2026-06-30 16:50:37 | INFO     |   📄 reports\sapk_PAT_045_20260630_164951.md
+2026-06-30 16:50:37 | INFO     |   📄 reports\sapk_PAT_045_20260630_164951_citations.json
+2026-06-30 16:50:37 | INFO     |   📄 ./agent.log
+2026-06-30 16:50:37 | INFO     | ======================================================================
+2026-07-03 13:13:24 | INFO     | ======================================================================
+2026-07-03 13:13:24 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 13:13:24 | INFO     | ======================================================================
+2026-07-03 13:13:24 | INFO     | Patient ID: PAT_041
+2026-07-03 13:13:24 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-03 13:13:24 | INFO     | Max tokens: 2500 | Prompt tokens: 2000
+2026-07-03 13:13:24 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:13:24 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 13:13:24 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 13:13:24 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 13:13:24 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 13:13:24 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 13:13:24 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:13:24 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 13:13:24 | INFO     | ✓ Patient: 49yo O, Chief complaint: Chest discomfort and dizziness
+2026-07-03 13:13:24 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-07-03 13:16:24 | ERROR    | Ollama request timeout after 180s
+2026-07-03 13:16:24 | ERROR    | ✗ LLM request timeout after 180s (attempt 1/3)
+2026-07-03 13:16:24 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 13:16:25 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 13:18:47 | INFO     | ======================================================================
+2026-07-03 13:18:47 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 13:18:47 | INFO     | ======================================================================
+2026-07-03 13:18:47 | INFO     | Patient ID: PAT_024
+2026-07-03 13:18:47 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-03 13:18:47 | INFO     | Max tokens: 2500 | Prompt tokens: 2000
+2026-07-03 13:18:47 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:18:47 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 13:18:48 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 13:18:48 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 13:18:48 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 13:18:48 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 13:18:48 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:18:48 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 13:18:48 | INFO     | ✓ Patient: 32yo M, Chief complaint: Persistent cough and fatigue
+2026-07-03 13:18:48 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-07-03 13:19:25 | ERROR    | Ollama request timeout after 180s
+2026-07-03 13:19:25 | ERROR    | ✗ LLM request timeout after 180s (attempt 2/3)
+2026-07-03 13:19:25 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 13:19:27 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 13:21:48 | ERROR    | Ollama request timeout after 180s
+2026-07-03 13:21:48 | ERROR    | ✗ LLM request timeout after 180s (attempt 1/3)
+2026-07-03 13:21:48 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 13:21:49 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 13:22:27 | ERROR    | Ollama request timeout after 180s
+2026-07-03 13:22:27 | ERROR    | ✗ LLM request timeout after 180s (attempt 3/3)
+2026-07-03 13:22:27 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-03 13:22:27 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:22:27 | INFO     | Generating reports...
+2026-07-03 13:22:27 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 13:22:27 | INFO     | Deleted 1 old report sets
+2026-07-03 13:22:27 | INFO     | ======================================================================
+2026-07-03 13:22:27 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 13:22:27 | INFO     | Confidence Score: 0.00
+2026-07-03 13:22:27 | INFO     | Safety Alerts: 1
+2026-07-03 13:22:27 | INFO     | Processing Time: 543.18s
+2026-07-03 13:22:27 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:22:27 | INFO     | Generated Report Files:
+2026-07-03 13:22:27 | INFO     |   📄 reports\sapk_PAT_041_20260703_131324.json
+2026-07-03 13:22:27 | INFO     |   📄 reports\sapk_PAT_041_20260703_131324.md
+2026-07-03 13:22:27 | INFO     |   📄 reports\sapk_PAT_041_20260703_131324_citations.json
+2026-07-03 13:22:27 | INFO     |   📄 ./agent.log
+2026-07-03 13:22:27 | INFO     | ======================================================================
+2026-07-03 13:24:31 | INFO     | ======================================================================
+2026-07-03 13:24:31 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 13:24:31 | INFO     | ======================================================================
+2026-07-03 13:24:31 | INFO     | Patient ID: PAT_045
+2026-07-03 13:24:31 | INFO     | LLM: ollama/llama3.2 (timeout: 300s)
+2026-07-03 13:24:31 | INFO     | Max tokens: 2000 | Prompt tokens: 1600
+2026-07-03 13:24:31 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:24:31 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 13:24:31 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 13:24:31 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 13:24:31 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 13:24:31 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 13:24:31 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:24:31 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 13:24:31 | INFO     | ✓ Patient: 53yo M, Chief complaint: Chest discomfort and dizziness
+2026-07-03 13:24:31 | INFO     | Calling LLM (attempt 1/3, timeout: 300s)...
+2026-07-03 13:24:49 | ERROR    | Ollama request timeout after 180s
+2026-07-03 13:24:49 | ERROR    | ✗ LLM request timeout after 180s (attempt 2/3)
+2026-07-03 13:24:49 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 13:24:50 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 13:27:51 | ERROR    | Ollama request timeout after 180s
+2026-07-03 13:27:51 | ERROR    | ✗ LLM request timeout after 180s (attempt 3/3)
+2026-07-03 13:27:51 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-03 13:27:51 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:27:51 | INFO     | Generating reports...
+2026-07-03 13:27:51 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 13:27:51 | INFO     | Deleted 1 old report sets
+2026-07-03 13:27:51 | INFO     | ======================================================================
+2026-07-03 13:27:51 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 13:27:51 | INFO     | Confidence Score: 0.00
+2026-07-03 13:27:51 | INFO     | Safety Alerts: 1
+2026-07-03 13:27:51 | INFO     | Processing Time: 543.19s
+2026-07-03 13:27:51 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:27:51 | INFO     | Generated Report Files:
+2026-07-03 13:27:51 | INFO     |   📄 reports\sapk_PAT_024_20260703_131848.json
+2026-07-03 13:27:51 | INFO     |   📄 reports\sapk_PAT_024_20260703_131848.md
+2026-07-03 13:27:51 | INFO     |   📄 reports\sapk_PAT_024_20260703_131848_citations.json
+2026-07-03 13:27:51 | INFO     |   📄 ./agent.log
+2026-07-03 13:27:51 | INFO     | ======================================================================
+2026-07-03 13:28:37 | INFO     | ======================================================================
+2026-07-03 13:28:37 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 13:28:37 | INFO     | ======================================================================
+2026-07-03 13:28:37 | INFO     | Patient ID: PAT_024
+2026-07-03 13:28:37 | INFO     | LLM: ollama/llama3.2 (timeout: 300s)
+2026-07-03 13:28:37 | INFO     | Max tokens: 2000 | Prompt tokens: 1600
+2026-07-03 13:28:37 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:28:37 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 13:28:37 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 13:28:37 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 13:28:37 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 13:28:37 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 13:28:37 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:28:37 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 13:28:37 | INFO     | ✓ Patient: 32yo M, Chief complaint: Persistent cough and fatigue
+2026-07-03 13:28:37 | INFO     | Calling LLM (attempt 1/3, timeout: 300s)...
+2026-07-03 13:29:31 | ERROR    | Ollama request timeout after 300s
+2026-07-03 13:29:31 | ERROR    | ✗ LLM request timeout after 300s (attempt 1/3)
+2026-07-03 13:29:31 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 13:29:32 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 13:33:28 | ERROR    | ✗ LLM request failed: ValidationError (attempt 1/3)
+2026-07-03 13:33:28 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 13:33:29 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 13:34:32 | ERROR    | Ollama request timeout after 300s
+2026-07-03 13:34:32 | ERROR    | ✗ LLM request timeout after 300s (attempt 2/3)
+2026-07-03 13:34:32 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 13:34:34 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 13:38:29 | ERROR    | Ollama request timeout after 300s
+2026-07-03 13:38:29 | ERROR    | ✗ LLM request timeout after 300s (attempt 2/3)
+2026-07-03 13:38:29 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 13:38:31 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 13:39:34 | ERROR    | Ollama request timeout after 300s
+2026-07-03 13:39:34 | ERROR    | ✗ LLM request timeout after 300s (attempt 3/3)
+2026-07-03 13:39:34 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-03 13:39:34 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:39:34 | INFO     | Generating reports...
+2026-07-03 13:39:34 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 13:39:34 | INFO     | Deleted 1 old report sets
+2026-07-03 13:39:34 | INFO     | ======================================================================
+2026-07-03 13:39:34 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 13:39:34 | INFO     | Confidence Score: 0.00
+2026-07-03 13:39:34 | INFO     | Safety Alerts: 1
+2026-07-03 13:39:34 | INFO     | Processing Time: 903.27s
+2026-07-03 13:39:34 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:39:34 | INFO     | Generated Report Files:
+2026-07-03 13:39:34 | INFO     |   📄 reports\sapk_PAT_045_20260703_132431.json
+2026-07-03 13:39:34 | INFO     |   📄 reports\sapk_PAT_045_20260703_132431.md
+2026-07-03 13:39:34 | INFO     |   📄 reports\sapk_PAT_045_20260703_132431_citations.json
+2026-07-03 13:39:34 | INFO     |   📄 ./agent.log
+2026-07-03 13:39:34 | INFO     | ======================================================================
+2026-07-03 13:40:55 | INFO     | ======================================================================
+2026-07-03 13:40:55 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 13:40:55 | INFO     | ======================================================================
+2026-07-03 13:40:55 | INFO     | Patient ID: PAT_001
+2026-07-03 13:40:55 | INFO     | LLM: ollama/llama3.2 (timeout: 300s)
+2026-07-03 13:40:55 | INFO     | Max tokens: 2000 | Prompt tokens: 1600
+2026-07-03 13:40:55 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:40:55 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 13:40:55 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 13:40:55 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 13:40:55 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 13:40:55 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 13:40:55 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:40:55 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 13:40:55 | INFO     | ✓ Patient: 9yo F, Chief complaint: Chest discomfort and dizziness
+2026-07-03 13:40:55 | INFO     | Calling LLM (attempt 1/3, timeout: 300s)...
+2026-07-03 13:43:31 | ERROR    | Ollama request timeout after 300s
+2026-07-03 13:43:31 | ERROR    | ✗ LLM request timeout after 300s (attempt 3/3)
+2026-07-03 13:43:31 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-03 13:43:31 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:43:31 | INFO     | Generating reports...
+2026-07-03 13:43:31 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 13:43:31 | INFO     | Deleted 1 old report sets
+2026-07-03 13:43:31 | INFO     | ======================================================================
+2026-07-03 13:43:31 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 13:43:31 | INFO     | Confidence Score: 0.00
+2026-07-03 13:43:31 | INFO     | Safety Alerts: 1
+2026-07-03 13:43:31 | INFO     | Processing Time: 894.11s
+2026-07-03 13:43:31 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:43:31 | INFO     | Generated Report Files:
+2026-07-03 13:43:31 | INFO     |   📄 reports\sapk_PAT_024_20260703_132837.json
+2026-07-03 13:43:31 | INFO     |   📄 reports\sapk_PAT_024_20260703_132837.md
+2026-07-03 13:43:31 | INFO     |   📄 reports\sapk_PAT_024_20260703_132837_citations.json
+2026-07-03 13:43:31 | INFO     |   📄 ./agent.log
+2026-07-03 13:43:31 | INFO     | ======================================================================
+2026-07-03 13:45:55 | ERROR    | Ollama request timeout after 300s
+2026-07-03 13:45:55 | ERROR    | ✗ LLM request timeout after 300s (attempt 1/3)
+2026-07-03 13:45:55 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 13:45:56 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 13:49:01 | ERROR    | ✗ LLM request failed: ValidationError (attempt 2/3)
+2026-07-03 13:49:01 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 13:49:03 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 13:53:33 | INFO     | ======================================================================
+2026-07-03 13:53:33 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 13:53:33 | INFO     | ======================================================================
+2026-07-03 13:53:33 | INFO     | Patient ID: PAT_024
+2026-07-03 13:53:33 | INFO     | LLM: ollama/llama3.2 (timeout: 300s)
+2026-07-03 13:53:33 | INFO     | Max tokens: 2000 | Prompt tokens: 1600
+2026-07-03 13:53:33 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:53:33 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 13:53:33 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 13:53:33 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 13:53:33 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 13:53:33 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 13:53:33 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:53:33 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 13:53:33 | INFO     | ✓ Patient: 32yo M, Chief complaint: Persistent cough and fatigue
+2026-07-03 13:53:33 | INFO     | Calling LLM (attempt 1/3, timeout: 300s)...
+2026-07-03 13:54:03 | ERROR    | Ollama request timeout after 300s
+2026-07-03 13:54:03 | ERROR    | ✗ LLM request timeout after 300s (attempt 3/3)
+2026-07-03 13:54:03 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-03 13:54:03 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:54:03 | INFO     | Generating reports...
+2026-07-03 13:54:03 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 13:54:03 | INFO     | Deleted 1 old report sets
+2026-07-03 13:54:03 | INFO     | ======================================================================
+2026-07-03 13:54:03 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 13:54:03 | INFO     | Confidence Score: 0.60
+2026-07-03 13:54:03 | INFO     | Safety Alerts: 6
+2026-07-03 13:54:03 | INFO     | Processing Time: 787.92s
+2026-07-03 13:54:03 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:54:03 | INFO     | Generated Report Files:
+2026-07-03 13:54:03 | INFO     |   📄 reports\sapk_PAT_001_20260703_134055.json
+2026-07-03 13:54:03 | INFO     |   📄 reports\sapk_PAT_001_20260703_134055.md
+2026-07-03 13:54:03 | INFO     |   📄 reports\sapk_PAT_001_20260703_134055_citations.json
+2026-07-03 13:54:03 | INFO     |   📄 ./agent.log
+2026-07-03 13:54:03 | INFO     | ======================================================================
+2026-07-03 13:56:12 | INFO     | ======================================================================
+2026-07-03 13:56:12 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 13:56:12 | INFO     | ======================================================================
+2026-07-03 13:56:12 | INFO     | Patient ID: PAT_001
+2026-07-03 13:56:12 | INFO     | LLM: ollama/llama3.2 (timeout: 300s)
+2026-07-03 13:56:12 | INFO     | Max tokens: 2000 | Prompt tokens: 1600
+2026-07-03 13:56:12 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:56:12 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 13:56:12 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 13:56:12 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 13:56:12 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 13:56:12 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 13:56:12 | INFO     | ----------------------------------------------------------------------
+2026-07-03 13:56:12 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 13:56:12 | INFO     | ✓ Patient: 9yo F, Chief complaint: Chest discomfort and dizziness
+2026-07-03 13:56:12 | INFO     | Calling LLM (attempt 1/3, timeout: 300s)...
+2026-07-03 13:58:03 | ERROR    | ✗ LLM request failed: ValidationError (attempt 1/3)
+2026-07-03 13:58:03 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 13:58:04 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 14:01:13 | ERROR    | Ollama request timeout after 300s
+2026-07-03 14:01:13 | ERROR    | ✗ LLM request timeout after 300s (attempt 1/3)
+2026-07-03 14:01:13 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 14:01:14 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 14:03:04 | ERROR    | Ollama request timeout after 300s
+2026-07-03 14:03:04 | ERROR    | ✗ LLM request timeout after 300s (attempt 2/3)
+2026-07-03 14:03:04 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 14:03:06 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 14:06:14 | ERROR    | Ollama request timeout after 300s
+2026-07-03 14:06:14 | ERROR    | ✗ LLM request timeout after 300s (attempt 2/3)
+2026-07-03 14:06:14 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 14:06:15 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 14:08:06 | ERROR    | Ollama request timeout after 300s
+2026-07-03 14:08:06 | ERROR    | ✗ LLM request timeout after 300s (attempt 3/3)
+2026-07-03 14:08:06 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-03 14:08:06 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:08:06 | INFO     | Generating reports...
+2026-07-03 14:08:06 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 14:08:06 | INFO     | Deleted 1 old report sets
+2026-07-03 14:08:06 | INFO     | ======================================================================
+2026-07-03 14:08:06 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 14:08:06 | INFO     | Confidence Score: 0.60
+2026-07-03 14:08:06 | INFO     | Safety Alerts: 1
+2026-07-03 14:08:06 | INFO     | Processing Time: 872.76s
+2026-07-03 14:08:06 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:08:06 | INFO     | Generated Report Files:
+2026-07-03 14:08:06 | INFO     |   📄 reports\sapk_PAT_024_20260703_135333.json
+2026-07-03 14:08:06 | INFO     |   📄 reports\sapk_PAT_024_20260703_135333.md
+2026-07-03 14:08:06 | INFO     |   📄 reports\sapk_PAT_024_20260703_135333_citations.json
+2026-07-03 14:08:06 | INFO     |   📄 ./agent.log
+2026-07-03 14:08:06 | INFO     | ======================================================================
+2026-07-03 14:11:16 | ERROR    | Ollama request timeout after 300s
+2026-07-03 14:11:16 | ERROR    | ✗ LLM request timeout after 300s (attempt 3/3)
+2026-07-03 14:11:16 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-03 14:11:16 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:11:16 | INFO     | Generating reports...
+2026-07-03 14:11:16 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 14:11:16 | INFO     | Deleted 1 old report sets
+2026-07-03 14:11:16 | INFO     | ======================================================================
+2026-07-03 14:11:16 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 14:11:16 | INFO     | Confidence Score: 0.60
+2026-07-03 14:11:16 | INFO     | Safety Alerts: 5
+2026-07-03 14:11:16 | INFO     | Processing Time: 903.29s
+2026-07-03 14:11:16 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:11:16 | INFO     | Generated Report Files:
+2026-07-03 14:11:16 | INFO     |   📄 reports\sapk_PAT_001_20260703_135612.json
+2026-07-03 14:11:16 | INFO     |   📄 reports\sapk_PAT_001_20260703_135612.md
+2026-07-03 14:11:16 | INFO     |   📄 reports\sapk_PAT_001_20260703_135612_citations.json
+2026-07-03 14:11:16 | INFO     |   📄 ./agent.log
+2026-07-03 14:11:16 | INFO     | ======================================================================
+2026-07-03 14:17:50 | INFO     | ======================================================================
+2026-07-03 14:17:50 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-03 14:17:50 | INFO     | ======================================================================
+2026-07-03 14:17:50 | INFO     | Patient ID: PAT_041
+2026-07-03 14:17:50 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-03 14:17:50 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-07-03 14:17:50 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:17:50 | INFO     | [1/6] Initializing patient loader...
+2026-07-03 14:17:50 | INFO     | [2/6] Initializing RAG engine...
+2026-07-03 14:17:50 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-03 14:17:50 | INFO     | [4/6] Initializing LLM client...
+2026-07-03 14:17:50 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-03 14:17:50 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:17:50 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-03 14:17:50 | INFO     | ✓ Patient: 49yo O, Chief complaint: Chest discomfort and dizziness
+2026-07-03 14:17:50 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-07-03 14:20:50 | ERROR    | Ollama request timeout after 180s
+2026-07-03 14:20:50 | ERROR    | ✗ LLM request timeout after 180s (attempt 1/3)
+2026-07-03 14:20:50 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-03 14:20:51 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-03 14:23:25 | ERROR    | ✗ LLM request failed: ValidationError (attempt 2/3)
+2026-07-03 14:23:25 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-03 14:23:26 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-03 14:26:00 | ERROR    | ✗ LLM request failed: ValidationError (attempt 3/3)
+2026-07-03 14:26:00 | ERROR    | ✗ LLM call failed after 3 retries: ValidationError
+2026-07-03 14:26:00 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:26:00 | INFO     | Generating reports...
+2026-07-03 14:26:00 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-03 14:26:00 | INFO     | Deleted 1 old report sets
+2026-07-03 14:26:00 | INFO     | ======================================================================
+2026-07-03 14:26:00 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-03 14:26:00 | INFO     | Confidence Score: 0.60
+2026-07-03 14:26:00 | INFO     | Safety Alerts: 3
+2026-07-03 14:26:00 | INFO     | Processing Time: 490.08s
+2026-07-03 14:26:00 | INFO     | ----------------------------------------------------------------------
+2026-07-03 14:26:00 | INFO     | Generated Report Files:
+2026-07-03 14:26:00 | INFO     |   📄 reports\sapk_PAT_041_20260703_141750.json
+2026-07-03 14:26:00 | INFO     |   📄 reports\sapk_PAT_041_20260703_141750.md
+2026-07-03 14:26:00 | INFO     |   📄 reports\sapk_PAT_041_20260703_141750_citations.json
+2026-07-03 14:26:00 | INFO     |   📄 ./agent.log
+2026-07-03 14:26:00 | INFO     | ======================================================================
+2026-07-23 09:56:11 | INFO     | ======================================================================
+2026-07-23 09:56:11 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-23 09:56:11 | INFO     | ======================================================================
+2026-07-23 09:56:11 | INFO     | Patient ID: 001
+2026-07-23 09:56:11 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-23 09:56:11 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-07-23 09:56:11 | INFO     | ----------------------------------------------------------------------
+2026-07-23 09:56:11 | INFO     | [1/6] Initializing patient loader...
+2026-07-23 09:56:11 | INFO     | [2/6] Initializing RAG engine...
+2026-07-23 09:57:03 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-23 09:57:03 | INFO     | [4/6] Initializing LLM client...
+2026-07-23 09:57:03 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-23 09:57:03 | INFO     | ----------------------------------------------------------------------
+2026-07-23 09:57:03 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-23 09:58:43 | INFO     | ======================================================================
+2026-07-23 09:58:43 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-23 09:58:43 | INFO     | ======================================================================
+2026-07-23 09:58:43 | INFO     | Patient ID: PAT_001
+2026-07-23 09:58:43 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-23 09:58:43 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-07-23 09:58:43 | INFO     | ----------------------------------------------------------------------
+2026-07-23 09:58:43 | INFO     | [1/6] Initializing patient loader...
+2026-07-23 09:58:43 | INFO     | [2/6] Initializing RAG engine...
+2026-07-23 09:59:34 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-23 09:59:34 | INFO     | [4/6] Initializing LLM client...
+2026-07-23 09:59:34 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-23 09:59:34 | INFO     | ----------------------------------------------------------------------
+2026-07-23 09:59:34 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-23 09:59:34 | INFO     | ✓ Patient: 9yo F, Chief complaint: Chest discomfort and dizziness
+2026-07-23 09:59:34 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-07-23 10:02:34 | ERROR    | Ollama request timeout after 180s
+2026-07-23 10:02:34 | ERROR    | ✗ LLM request timeout after 180s (attempt 1/3)
+2026-07-23 10:02:34 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-23 10:02:35 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-23 10:05:35 | ERROR    | Ollama request timeout after 180s
+2026-07-23 10:05:35 | ERROR    | ✗ LLM request timeout after 180s (attempt 2/3)
+2026-07-23 10:05:35 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-23 10:05:37 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-23 10:08:37 | ERROR    | Ollama request timeout after 180s
+2026-07-23 10:08:37 | ERROR    | ✗ LLM request timeout after 180s (attempt 3/3)
+2026-07-23 10:08:37 | ERROR    | ✗ LLM call failed after 3 retries: ReadTimeout
+2026-07-23 10:08:37 | INFO     | ----------------------------------------------------------------------
+2026-07-23 10:08:37 | INFO     | Generating reports...
+2026-07-23 10:08:37 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-23 10:08:37 | INFO     | Deleted 1 old report sets
+2026-07-23 10:08:37 | INFO     | ======================================================================
+2026-07-23 10:08:37 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-23 10:08:37 | INFO     | Confidence Score: 0.60
+2026-07-23 10:08:37 | INFO     | Safety Alerts: 5
+2026-07-23 10:08:37 | INFO     | Processing Time: 542.80s
+2026-07-23 10:08:37 | INFO     | ----------------------------------------------------------------------
+2026-07-23 10:08:37 | INFO     | Generated Report Files:
+2026-07-23 10:08:37 | INFO     |   📄 reports\sapk_PAT_001_20260723_095934.json
+2026-07-23 10:08:37 | INFO     |   📄 reports\sapk_PAT_001_20260723_095934.md
+2026-07-23 10:08:37 | INFO     |   📄 reports\sapk_PAT_001_20260723_095934_citations.json
+2026-07-23 10:08:37 | INFO     |   📄 ./agent.log
+2026-07-23 10:08:37 | INFO     | ======================================================================
+2026-07-27 10:16:31 | INFO     | ======================================================================
+2026-07-27 10:16:31 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-27 10:16:31 | INFO     | ======================================================================
+2026-07-27 10:16:31 | INFO     | Patient ID: PAT_001
+2026-07-27 10:16:31 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-27 10:16:31 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-07-27 10:16:31 | INFO     | ----------------------------------------------------------------------
+2026-07-27 10:16:31 | INFO     | [1/6] Initializing patient loader...
+2026-07-27 10:16:31 | INFO     | [2/6] Initializing RAG engine...
+2026-07-27 10:17:22 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-27 10:17:22 | INFO     | [4/6] Initializing LLM client...
+2026-07-27 10:17:22 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-27 10:17:22 | INFO     | ----------------------------------------------------------------------
+2026-07-27 10:17:22 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-27 10:17:22 | INFO     | ✓ Patient: 9yo F, Chief complaint: Chest discomfort and dizziness
+2026-07-27 10:17:22 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-07-27 10:17:43 | ERROR    | Ollama request timeout after 180s
+2026-07-27 10:17:43 | ERROR    | ✗ LLM request timeout after 180s (attempt 1/3)
+2026-07-27 10:17:43 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-27 10:17:44 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-27 10:18:05 | ERROR    | Ollama request timeout after 180s
+2026-07-27 10:18:05 | ERROR    | ✗ LLM request timeout after 180s (attempt 2/3)
+2026-07-27 10:18:05 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-27 10:18:06 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-27 10:18:27 | ERROR    | Ollama request timeout after 180s
+2026-07-27 10:18:27 | ERROR    | ✗ LLM request timeout after 180s (attempt 3/3)
+2026-07-27 10:18:27 | ERROR    | ✗ LLM call failed after 3 retries: ConnectTimeout
+2026-07-27 10:18:28 | INFO     | ----------------------------------------------------------------------
+2026-07-27 10:18:28 | INFO     | Generating reports...
+2026-07-27 10:18:28 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-27 10:18:28 | INFO     | Deleted 1 old report sets
+2026-07-27 10:18:28 | INFO     | ======================================================================
+2026-07-27 10:18:28 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-27 10:18:28 | INFO     | Confidence Score: 0.60
+2026-07-27 10:18:28 | INFO     | Safety Alerts: 5
+2026-07-27 10:18:28 | INFO     | Processing Time: 65.89s
+2026-07-27 10:18:28 | INFO     | ----------------------------------------------------------------------
+2026-07-27 10:18:28 | INFO     | Generated Report Files:
+2026-07-27 10:18:28 | INFO     |   📄 reports\sapk_PAT_001_20260727_101722.json
+2026-07-27 10:18:28 | INFO     |   📄 reports\sapk_PAT_001_20260727_101722.md
+2026-07-27 10:18:28 | INFO     |   📄 reports\sapk_PAT_001_20260727_101722_citations.json
+2026-07-27 10:18:28 | INFO     |   📄 ./agent.log
+2026-07-27 10:18:28 | INFO     | ======================================================================
+2026-07-31 10:26:13 | INFO     | ======================================================================
+2026-07-31 10:26:13 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-31 10:26:13 | INFO     | ======================================================================
+2026-07-31 10:26:13 | INFO     | Patient ID: PAT_001
+2026-07-31 10:26:13 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-31 10:26:13 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-07-31 10:26:13 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:26:13 | INFO     | [1/6] Initializing patient loader...
+2026-07-31 10:26:13 | INFO     | [2/6] Initializing RAG engine...
+2026-07-31 10:27:04 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-31 10:27:04 | INFO     | [4/6] Initializing LLM client...
+2026-07-31 10:27:04 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-31 10:27:04 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:27:04 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-31 10:27:04 | INFO     | ✓ Patient: 9yo F, Chief complaint: Chest discomfort and dizziness
+2026-07-31 10:27:04 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-07-31 10:27:17 | ERROR    | ✗ LLM request failed: ValidationError (attempt 1/3)
+2026-07-31 10:27:17 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-31 10:27:18 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-31 10:27:31 | ERROR    | ✗ LLM request failed: ValidationError (attempt 2/3)
+2026-07-31 10:27:31 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-31 10:27:33 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-31 10:27:46 | ERROR    | ✗ LLM request failed: ValidationError (attempt 3/3)
+2026-07-31 10:27:46 | ERROR    | ✗ LLM call failed after 3 retries: ValidationError
+2026-07-31 10:27:46 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:27:46 | INFO     | Generating reports...
+2026-07-31 10:27:46 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-31 10:27:46 | INFO     | Deleted 1 old report sets
+2026-07-31 10:27:46 | INFO     | ======================================================================
+2026-07-31 10:27:46 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-31 10:27:46 | INFO     | Confidence Score: 0.60
+2026-07-31 10:27:46 | INFO     | Safety Alerts: 5
+2026-07-31 10:27:46 | INFO     | Processing Time: 41.71s
+2026-07-31 10:27:46 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:27:46 | INFO     | Generated Report Files:
+2026-07-31 10:27:46 | INFO     |   📄 reports\sapk_PAT_001_20260731_102704.json
+2026-07-31 10:27:46 | INFO     |   📄 reports\sapk_PAT_001_20260731_102704.md
+2026-07-31 10:27:46 | INFO     |   📄 reports\sapk_PAT_001_20260731_102704_citations.json
+2026-07-31 10:27:46 | INFO     |   📄 ./agent.log
+2026-07-31 10:27:46 | INFO     | ======================================================================
+2026-07-31 10:33:14 | INFO     | ======================================================================
+2026-07-31 10:33:14 | INFO     | CLINICAL DECISION SUPPORT AGENT - CAPSTONE PROJECT
+2026-07-31 10:33:14 | INFO     | ======================================================================
+2026-07-31 10:33:14 | INFO     | Patient ID: PAT_001
+2026-07-31 10:33:14 | INFO     | LLM: ollama/llama3.2 (timeout: 180s)
+2026-07-31 10:33:14 | INFO     | Max tokens: 1500 | Prompt tokens: 1200
+2026-07-31 10:33:14 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:33:14 | INFO     | [1/6] Initializing patient loader...
+2026-07-31 10:33:14 | INFO     | [2/6] Initializing RAG engine...
+2026-07-31 10:34:05 | INFO     | [3/6] Initializing safety guardrails...
+2026-07-31 10:34:05 | INFO     | [4/6] Initializing LLM client...
+2026-07-31 10:34:05 | INFO     | [5/6] Initializing clinical decision agent...
+2026-07-31 10:34:05 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:34:05 | INFO     | [6/6] Loading patient data and running analysis...
+2026-07-31 10:34:05 | INFO     | ✓ Patient: 9yo F, Chief complaint: Chest discomfort and dizziness
+2026-07-31 10:34:05 | INFO     | Calling LLM (attempt 1/3, timeout: 180s)...
+2026-07-31 10:34:18 | ERROR    | ✗ LLM request failed: ValidationError (attempt 1/3)
+2026-07-31 10:34:18 | INFO     | ⏳ Waiting 1.0s before retry...
+2026-07-31 10:34:19 | WARNING  | Retrying LLM request (attempt 2/3) after 1.0s backoff...
+2026-07-31 10:34:32 | ERROR    | ✗ LLM request failed: ValidationError (attempt 2/3)
+2026-07-31 10:34:32 | INFO     | ⏳ Waiting 1.5s before retry...
+2026-07-31 10:34:33 | WARNING  | Retrying LLM request (attempt 3/3) after 1.5s backoff...
+2026-07-31 10:34:49 | ERROR    | ✗ LLM request failed: ValidationError (attempt 3/3)
+2026-07-31 10:34:49 | ERROR    | ✗ LLM call failed after 3 retries: ValidationError
+2026-07-31 10:34:49 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:34:49 | INFO     | Generating reports...
+2026-07-31 10:34:49 | INFO     | Cleaning up old reports, keeping last 7...
+2026-07-31 10:34:50 | INFO     | Deleted 1 old report sets
+2026-07-31 10:34:50 | INFO     | ======================================================================
+2026-07-31 10:34:50 | INFO     | ✓ ANALYSIS COMPLETE
+2026-07-31 10:34:50 | INFO     | Confidence Score: 0.60
+2026-07-31 10:34:50 | INFO     | Safety Alerts: 5
+2026-07-31 10:34:50 | INFO     | Processing Time: 44.88s
+2026-07-31 10:34:50 | INFO     | ----------------------------------------------------------------------
+2026-07-31 10:34:50 | INFO     | Generated Report Files:
+2026-07-31 10:34:50 | INFO     |   📄 reports\sapk_PAT_001_20260731_103405.json
+2026-07-31 10:34:50 | INFO     |   📄 reports\sapk_PAT_001_20260731_103405.md
+2026-07-31 10:34:50 | INFO     |   📄 reports\sapk_PAT_001_20260731_103405_citations.json
+2026-07-31 10:34:50 | INFO     |   📄 ./agent.log
+2026-07-31 10:34:50 | INFO     | ======================================================================

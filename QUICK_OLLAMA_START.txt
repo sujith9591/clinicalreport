@@ -1,0 +1,151 @@
+╔════════════════════════════════════════════════════════════════════╗
+║      QUICK START: Local Ollama Setup (30 minutes)                 ║
+╚════════════════════════════════════════════════════════════════════╝
+
+YOUR SYSTEM: ✅ 16GB RAM, ✅ 30GB disk space - Perfect for Ollama!
+
+═══════════════════════════════════════════════════════════════════════
+
+STEP 1: DOWNLOAD OLLAMA (5 minutes)
+─────────────────────────────────────────────────────────────────────
+
+1. Go to: https://ollama.ai
+2. Click "Download"
+3. Click "Download for Windows"
+4. Save OllamaSetup.exe
+
+═══════════════════════════════════════════════════════════════════════
+
+STEP 2: INSTALL OLLAMA (5 minutes)
+─────────────────────────────────────────────────────────────────────
+
+1. Double-click OllamaSetup.exe
+2. Click "Next" on all prompts
+3. Click "Install"
+4. Click "Finish"
+5. RESTART YOUR COMPUTER (required!)
+6. Verify: Open PowerShell, run: ollama --version
+
+═══════════════════════════════════════════════════════════════════════
+
+STEP 3: DOWNLOAD MODEL (15 minutes)
+─────────────────────────────────────────────────────────────────────
+
+Open PowerShell and run:
+
+    ollama pull llama3.2
+
+Wait for ~6-7GB download to complete. You'll see:
+    pulling manifest
+    downloading 123456... [===============>      ] 85%
+    (wait for 100%)
+
+═══════════════════════════════════════════════════════════════════════
+
+STEP 4: UPDATE CONFIGURATION (2 minutes)
+─────────────────────────────────────────────────────────────────────
+
+Edit file: config.yaml
+
+FIND THIS:
+    llm:
+      base_url: http://3.94.255.185:11434
+
+CHANGE TO:
+    llm:
+      base_url: http://localhost:11434
+      timeout_seconds: 60
+
+SAVE FILE!
+
+═══════════════════════════════════════════════════════════════════════
+
+STEP 5: START OLLAMA SERVER (ongoing)
+─────────────────────────────────────────────────────────────────────
+
+Open PowerShell and run:
+
+    ollama serve
+
+You should see:
+    Listening on 127.0.0.1:11434
+
+KEEP THIS WINDOW OPEN! (This is your server running)
+
+═══════════════════════════════════════════════════════════════════════
+
+STEP 6: TEST YOUR SETUP (5 minutes)
+─────────────────────────────────────────────────────────────────────
+
+Open a NEW PowerShell window (not the one running ollama serve):
+
+    cd C:\Users\sapthagiri.k\Clinical_Decision_Support_Agent
+    set PYTHONIOENCODING=utf-8
+    python run_comprehensive_tests.py
+
+EXPECTED RESULT:
+    ✓ Config loaded successfully
+    ✓ Ollama client initialized
+    ✓ Patient loaded: PAT_001
+    ✓ RAG engine initialized
+    ✓ Guardrail pipeline initialized
+    ✓ Report generation validated
+    ✓ ALL TESTS PASSED - PROJECT IS WORKING AS EXPECTED
+
+═══════════════════════════════════════════════════════════════════════
+
+SUCCESS! YOUR SYSTEM IS FULLY OPERATIONAL! 🎉
+─────────────────────────────────────────────────────────────────────
+
+Now you can:
+
+1. Analyze patients:
+   python main.py --patient_id PAT_001
+
+2. View reports:
+   Open: ./reports/ folder
+
+3. Run more tests:
+   pytest tests/ -v
+
+═══════════════════════════════════════════════════════════════════════
+
+IMPORTANT NOTES
+─────────────────────────────────────────────────────────────────────
+
+✓ First request takes 30-60 sec (model loading)
+✓ Subsequent requests take 3-5 sec (fast!)
+✓ Keep "ollama serve" window open while using system
+✓ System works offline after initial setup
+✓ Models cached locally (~8GB storage)
+
+═══════════════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING
+─────────────────────────────────────────────────────────────────────
+
+Problem: Timeout after 30 seconds
+Solution: Increase timeout_seconds to 60 in config.yaml
+
+Problem: "Connection refused"
+Solution: Make sure ollama serve is running in another PowerShell
+
+Problem: "Model not found"
+Solution: Run: ollama pull llama3.2
+
+Problem: Tests fail
+Solution: Check ollama serve window is still open and running
+
+═══════════════════════════════════════════════════════════════════════
+
+NEED DETAILED HELP?
+─────────────────────────────────────────────────────────────────────
+
+Read: OLLAMA_LOCAL_SETUP.md (full step-by-step guide)
+
+═══════════════════════════════════════════════════════════════════════
+
+TOTAL TIME: 30 MINUTES
+RESULT: FULLY FUNCTIONAL CLINICAL DECISION SUPPORT SYSTEM ✅
+
+═══════════════════════════════════════════════════════════════════════
